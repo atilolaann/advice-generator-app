@@ -27,7 +27,7 @@ main{
     max-width: 500px;
     margin: 0 auto;
     border-radius: 10px;
-    height: 250px;
+    height: 100%;
     padding-bottom: 20px;
 }
 p{
@@ -45,7 +45,7 @@ p{
 }
 #dice-btn{
     position: absolute;
-    bottom: -30px;
+    bottom: -40px;
     left: 50%;
     transform: translate(-50%);
     border-radius: 50%;
@@ -55,6 +55,9 @@ p{
 }
 #img-2{
     display: block;
+}
+#img-1{
+    margin-bottom: 10px;
 }
 
 @media (max-width: 500px){
